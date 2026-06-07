@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 800px;
+    background-color: rgb(255, 255, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    h1{
+       font-size: 50px;
+    }
+}
+
+#jokeForm{
+    background-color: yellowgreen;
+    height: 100px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(53, 191, 2);
+    border-radius: 5px;
+
+    h3{
+        margin: 20px 0;
+        color: rgb(0, 0, 0);
+        
+        font-size: large;
+    }
+    select{
+        text-decoration: none;
+        border: 1px solid green;
+        border-radius: 5px;
+        padding: 2px;
+        background-color: white;
+        option{
+            color: black;
+            border-radius: 5px;
+
+        }
+    }
+    button{
+        border-radius: 5px;
+        padding: 2px;
+        border: 1px solid rgb(0, 81, 30);
+        background-color: rgb(6, 231, 81);
+        font: bold;
+    }
+}
+
+#resultBox{
+    min-width: 400px;
+    height: 100px;
+    background-color: rgb(84, 219, 165);
+    border-radius: 20px;
+    border: 1px solid rgb(3, 121, 125);
+    p{
+        padding: 5px;
+    }
+}
